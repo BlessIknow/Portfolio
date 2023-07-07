@@ -80,9 +80,12 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://getform.io/f/df4c542e-b17b-490a-af25-d1262ec62f57"
+                // action="https://getform.io/f/df4c542e-b17b-490a-af25-d1262ec62f57"
+                // method="POST"
+                // encType="multipart/form-data"
+                name="contact"
                 method="POST"
-                encType="multipart/form-data"
+                data-netlify="true"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
